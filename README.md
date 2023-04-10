@@ -15,9 +15,9 @@ This is a Hospital Management System built using the MERN Stack (MongoDB, Expres
 
 ## Screenshots
 
-###Dashboards
+### Dashboards
 
-####Admin Dashboard
+#### Admin Dashboard
 
 <img width="1440" alt="Screenshot 2023-04-01 at 7 21 03 PM" src="https://user-images.githubusercontent.com/33474725/230932009-1f98b4d4-d0fd-41ca-b91d-79eae357c2fd.png">
 
