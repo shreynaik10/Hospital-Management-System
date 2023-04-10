@@ -1,0 +1,70 @@
+#appointmentMain {
+    min-height: 100vh;
+    /* background-color: #fafafa; */
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.pageTitle {
+    color: rgb(49, 179, 114);
+    padding: 5px 0;
+    font-weight: bold;
+
+}
+
+#slotGrid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 30px 5px 30px 0;
+    /* gap:10px; */
+}
+
+#calendarDiv {
+    border: 0px !important;
+    /* padding: 0 70px; */
+    /* width: 400px; */
+    border-radius: 8px;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
+    vertical-align: middle !important;
+}
+
+#slotCreationDiv {
+    padding-left: 70px;
+}
+
+#appointmentMain h4 {
+    color: rgb(49, 179, 114);
+    font-weight: bold;
+}
+
+
+.slotCard {
+    padding: 5px 0;
+    border: 1px solid rgb(49, 179, 114);
+    margin: 10px;
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+}
+
+.slotCard:hover {
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width:1000px) {
+
+    #slotGrid {
+        grid-template-columns: 100%;
+        /* padding: 10px !important; */
+    }
+
+    #calendarDiv {
+        display: none;
+    }
+
+    #slotCreationDiv {
+        padding-left: 30px;
+    }
+}

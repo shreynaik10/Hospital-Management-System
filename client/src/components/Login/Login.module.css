@@ -1,0 +1,72 @@
+#loginBody {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/public/images/login-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.greenLayer1 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(126, 211, 165, 0.29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginFormDiv {
+    height: 70%;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Proxima Nova';
+}
+
+#loginFormDiv p {
+    padding: 10px 0 20px;
+    text-align: center;
+    color: #646D82;
+}
+
+#loginFormDiv button:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1)
+}
+
+#loginFormDiv input {
+    background-color: transparent;
+}
+
+#loginBtn {
+    padding: 10px;
+    color: white;
+    background-color: #31b372;
+    border: 0;
+    /* margin-top: 40px; */
+    margin-right: 20px;
+    border-radius: 2px;
+}
+
+.signUpBtn {
+    padding: 10px;
+    color: green;
+    background-color: white;
+    border: 1px solid #31b372;
+    /* margin-top: 40px; */
+    border-radius: 2px;
+}
+
+@media screen and (max-width:1000px) {
+
+    #loginFormDiv {
+        height: 90%;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.86);
+    }
+}

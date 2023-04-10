@@ -1,0 +1,74 @@
+#signUpBody {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    font-family: 'Proxima Nova';
+}
+
+#signUpBG {
+    background-image: url('/public/images/signup-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.greenLayer {
+    background-color: rgba(126, 211, 165, 0.44);
+    height: 100vh;
+}
+
+h2 {
+    color: #048C7F;
+    text-align: center;
+    /* margin-top: 120px; */
+}
+
+#signUpform {
+    width: 60%;
+    margin: auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date],
+input[type=number],
+select {
+    border: none !important;
+    border-bottom: 1px solid silver !important;
+    ;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
+
+input[type=checkbox] {
+    border: 1px black solid !important;
+    border-radius: 3px !important;
+    /* background-color: */
+}
+
+#signUpBtn {
+    padding: 10px 60px;
+    color: white;
+    background-color: #31b372;
+    border: 0;
+    margin: 40px;
+}
+
+#signUpBtn:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1)
+}
+
+@media screen and (max-width:1000px) {
+    #signUpBody {
+
+        grid-template-columns: 0% 100%;
+    }
+
+    #signUpBtn {
+        padding: 10px 50px;
+
+    }
+}
